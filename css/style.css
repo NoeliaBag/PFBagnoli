@@ -438,21 +438,17 @@ h2 {
         text-align: center;
         justify-content: space-evenly;
     }
-    }
     
     .footer ul {
         display: flex;
         list-style: none;
     
     }
-
-    
-    
-    .main-personas {
+     .main-personas {
         display: flex;
         align-items: center;
     }
-    
+
     .main-personas img {
         height: 440px;
         width: 600px;
@@ -473,11 +469,14 @@ h2 {
         
     }
     
-    
-
-.main-idiomas img {
+    .main-idiomas img {
     height: 120px;
     width: 120px;
-    border-radius: 50%;
-    
+    border-radius: 50%;}
+
 }
+    
+
+    
+    
+
