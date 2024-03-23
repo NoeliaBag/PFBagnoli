@@ -198,7 +198,7 @@ h1 {
 
 .main-personas {
     display: flex;
-    align-items: stretch;
+    align-items: flex-start;
     flex-wrap: wrap;
     justify-content: space-around;
     
