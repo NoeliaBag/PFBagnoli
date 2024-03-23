@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.logo-meetlang img {
+    height: 200px;
+    margin: 16px;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px;
+    height: 190px;
+    flex-wrap: wrap;
+}
+
+
+.nav ul {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.nav li {
+    margin: 0 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: #B794FD;
+    text-shadow: 3px 5px 25px #B794FD;
+
+}
+
+
+.nav ul li:hover {
+    text-decoration: underline;
+}
+
+.main-index {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    font-family: 'Quicksand', sans-serif;
+    
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    border: solid #B794FD;
+    background-color: rgb(128, 147, 241);
+    color: rgb(255, 255, 255);
+    font-style: inherit;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 15px;
+    
+    
+}
+
+.homebanderas h2{
+    font-family: 'Quicksand', sans-serif;
+    
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    border: solid #B794FD;
+    background-color:  #B794FD ;
+    color: rgb(255, 255, 255);
+    font-style: inherit;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 15px;
+    
+}
+.card-title {
+    
+    font-family: 'Quicksand', sans-serif;
+    
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    border: solid #B794FD;
+    background-color: rgb(128, 147, 241);
+    color: rgb(255, 255, 255);
+    font-style: inherit;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 15px;
+    
+}
+
+.card-body {
+    background-color: #b794fd6a;
+}
+
+.btn {
+    background-color: rgb(128, 147, 241);
+}
+
+h1 {
+    background-color: rgb(128, 147, 241);
+    font-family: 'Quicksand', sans-serif;
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.main-idiomas {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.main-idiomas ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.main-idiomas ul li a {
+    list-style: none;
+    
+}
+
+.main-idiomas img {
+    height: 130px;
+    width: 200px;
+    
+}
+
+
+
+.testimonios h3 {
+    color: white;
+    background-color: #B794FD;
+    
+    
+    
+}
+
+.videos h3 {
+    border: solid 6px rgb(255, 255, 255);
+    box-shadow: 3px 5px 20px rgba(183, 148, 253, 0.5);
+    background-color: #B794FD;
+    width: 400px;
+    font-style: italic;
+    margin: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    align-items: baseline;
+    
+}
+
+.videos {
+    margin: 20px;
+}
+
+.testimonios {
+    border: solid 6px rgb(255, 255, 255);
+    box-shadow: 3px 5px 20px rgba(183, 148, 253, 0.5);
+    background-color: #B794FD;
+    width: 400px;
+    font-style: italic;
+    margin: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    align-items: baseline;
+    
+}
+
+.main-personas {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.main-personas img {
+    height: 550px;
+    width: 700px;
+    overflow: hidden;
+    border-radius: 15px;
+    
+}
+
+.main-personas p {
+    border: solid #B794FD;
+    background-color: rgb(249, 248, 249);
+    color: rgb(128, 147, 241);
+    font-style: inherit;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 15px;
+    
+}
+
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin: 20px 50px 50px;
+    border-radius: 15px;
+    
+    
+}
+
+.bordenegro {
+    border: solid black;
+    
+    
+}
+
+.bordelila {
+    border: 2px solid #B794FD;
+    
+}
+
+
+
+.imagen-home {
+    margin-left: 470px
+}
+
+.homebanderas img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    
+}
+
+.formulario {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #5b0063;
+    display: flex;
+    padding: 30px 30px;
+}
+
+.main-usuario {
+    background-image: url("../resources/multicultural1.png");
+    background-size: cover;
+    
+}
+
+
+.main-blog {
+    display: flex;
+    justify-content: center;
+}
+
+.grilla-blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 550px;
+    grid-template-areas:
+    ".testimonios .videos"
+    ".testimonios .videos"
+    ;
+}
+
+
+.grilla-idiomas {
+    display: grid;
+    grid-template-columns: 0.4fr 1.6fr 1.6fr 0.4fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    ". idiomas1 idiomas2 .";
+}
+
+.idiomas1 {
+    grid-area: idiomas1;
+}
+
+.idiomas2 {
+    grid-area: idiomas2;
+}
+
+
+.header__item--activo {
+    background-color: #8b58f23e;
+    border-radius: 15px;
+}
+
+.footer {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .follow-us {
+    display: flex;
+    align-items: center;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer p {
+    margin: 0;
+}
+
+
+
+@media (max-width: 1340px) {
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    
+    .nav img {
+        height: 125px;
+    }
+    
+    .main-index,
+    .main-blog,
+    .main-idiomas,
+    .main-personas,
+    .main-usuario {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    
+    .main-index h1,
+    .main-blog h1,
+    .main-idiomas h1,
+    .main-personas h1,
+    .main-usuario h1 {
+        font-size: 24px;
+    }
+    
+    .nav ul {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 10px;
+        font-weight: 300px;
+        list-style: none;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: first baseline;
+        
+    }
+    
+    .nav li {
+        margin: 0 5px;
+    }
+    
+    .nav a {
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: bold;
+        color: #B794FD;
+        text-shadow: 3px 5px 25px #B794FD;
+        
+        
+    }
+    
+    .grilla-blog {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .main-blog {
+        flex-direction: column;
+        
+    }
+    
+    .testimonios {
+        border: solid 6px rgb(255, 255, 255);
+        box-shadow: 3px 5px 20px rgba(183, 148, 253, 0.5);
+        background-color: #B794FD;
+        width: 300px;
+        font-style: italic;
+        margin: 20px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 25px;
+        font-weight: 500;
+        align-items: baseline;
+        
+    }
+    
+    .videos iframe {
+        width: 320px;
+        height: 225px;
+    }
+    
+    .footer {
+        position: fixed;
+        display: flex;
+        bottom: 0;
+        width: 100%;
+        background-color: #f9f9f9;
+        padding: 20px;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    }
+    
+    .footer ul {
+        display: flex;
+        list-style: none;
+    
+    }
+
+    
+    
+    .main-personas {
+        display: flex;
+        align-items: center;
+    }
+    
+    .main-personas img {
+        height: 440px;
+        width: 600px;
+        margin: 10px 10px;
+        flex-direction: column;
+        
+    }
+    
+    .main-personas p {
+        border: solid #B794FD;
+        background-color: rgb(249, 248, 249);
+        color: rgb(172, 172, 222);
+        font-style: inherit;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 25px;
+        font-weight: 500;
+        border-radius: 15px;
+        
+    }
+    
+    
+
+.main-idiomas img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    
+}
